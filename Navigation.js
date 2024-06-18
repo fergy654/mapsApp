@@ -4,7 +4,6 @@ import Home from "./screens/Home";
 import Maps from "./screens/Maps";
 import Settings from "./screens/Settings";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import MapView from "react-native-maps";
 
 const Tab = createMaterialTopTabNavigator();
 const Stack = createNativeStackNavigator();

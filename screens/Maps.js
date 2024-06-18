@@ -7,10 +7,11 @@ export default function Maps({ navigation }) {
       <MapView
         style={styles.map}
         initialRegion={{
+          initialZoom: 500,
           latitude: 32.542082,
           longitude: -97.320849,
-          latitudeDelta: 20,
-          longitudeDelta: 15,
+          latitudeDelta: 0.03,
+          longitudeDelta: 0.03,
         }}
       />
     </View>
