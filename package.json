@@ -6,7 +6,8 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "postinstall": "node ./postInstall && node react-native-map-web-fix.js"
   },
   "dependencies": {
     "@expo/metro-runtime": "~3.2.1",
@@ -15,6 +16,7 @@
     "@react-navigation/native-stack": "^6.9.26",
     "expo": "~51.0.11",
     "expo-status-bar": "~1.12.1",
+    "firebase": "^10.12.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-native": "0.74.2",
